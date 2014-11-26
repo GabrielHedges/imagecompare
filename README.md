@@ -47,7 +47,7 @@ Returns a comparison array, which you can later insert into the database using `
 
 ###image_insert($img_id, $compare_array)
 
-*$img_id*: Unique ID you can use to later identify an image. A md5 hash of the filename isn't a bad idea.  
+*$img_id*: Unique ID you can use to later identify an image. An MD5 hash of the URL you downloaded the image from or a UUID would be my suggestions.  
 *$compare_array*: Image data created by ```image_comparison_array_create()```.  
 
 Inserts image into the database.
